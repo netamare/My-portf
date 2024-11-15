@@ -345,3 +345,57 @@ h3{
         width: 40%;
     }
 }
+
+@media (max-width: 768px) {
+    header {
+        font-size: 2.5em;
+    }
+
+    main {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .about {
+        display: inline-block;
+        width: calc(50% - 20px); 
+        margin: 10px;
+    }
+    .home {
+        display: inline-block;
+        width: calc(50% - 20px); 
+        margin: 10px;
+    }
+    .skill {
+        display: inline-block;
+        width: calc(50% - 20px); 
+        margin: 10px;
+    }
+    .footer {
+        display: inline-block;
+        width: calc(60% - 20px);
+        margin: 10px;
+    }
+} 
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        font-size: 1.5em;
+    }
+
+    .about{
+        padding: 10px;
+    }
+    .home{
+        padding: 10px;
+    }
+    .skill{
+        padding: 10px;
+    }
+    .footer{
+        padding: 10px;
+    }
+}
